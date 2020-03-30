@@ -1,0 +1,99 @@
+﻿/*焦点图*/
+.swiper-container{width:100%;z-index:0;}
+.swiper-wrapper .swiper-slide{width:100%;}
+.swiper-wrapper .swiper-slide img{width:100%;}
+.dynamic .swiper-button-prev{left:50%;margin-left:-240px;margin-top:0;}
+.dynamic .swiper-button-next{right:50%;margin-right:-240px;margin-top:0;}
+.swiper-pagination-bullet{border:2px solid #fff;opacity:1;background:none;width:10px;height:10px;}
+.swiper-pagination-bullet-active{background:#fff;}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{margin:0px 13px 20px 0;}
+.dynamic .swiper-button-next, .swiper-container-rtl .swiper-button-prev{background-image:url(../Images/next.png)}
+.dynamic .swiper-button-prev, .swiper-container-rtl .swiper-button-next{background-image:url(../Images/prev.png)}
+.main{width:1000px;margin:20px auto 0;}
+.main p{font-size:30px;text-align:center;line-height:60px;}
+.sm_nav{width:360px;margin:0px auto 10px;height:55px; }
+.sm_nav a{width:90px;line-height:55px;display:inline-block;text-align:center;}
+.sm_nav a.cur{color:#e8323f;}
+/*众筹项目*/
+.pro_img{border:1px solid #e7e7e7;margin-bottom:40px;}
+.pro_img a{display:block;overflow:hidden;height:280px;margin:10px;position:relative;}
+.pro_img span.tab{position:absolute;top:0px;left:0px;padding:7px 25px;color:#fff;background-color:#e8323f;z-index:4;}
+.pro_img .now{position:absolute;top:235px;left:0px;height:50px;width:980px;background-color:rgba(0,0,0,0.5);}
+.pro_img .now p{font-size:24px;margin:0px 0 0 50px;color:#fff;line-height:40px;text-align:left;}
+.pro_img .now p span.edu{margin-left:72px;padding:1px 16px;color:#96cd48;border:1px solid #96cd48;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p span.heal{margin-left:72px;padding:1px 16px;color:#28bbb4;border:1px solid #28bbb4;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p span.sce{margin-left:72px;padding:1px 16px;color:#00a0e9;border:1px solid #00a0e9;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p.name{font-size:14px;margin:5px 0 0 50px;line-height:18px;}
+.pro_img .now div{color:#fff;font-size:14px;}
+.pro_img .now div.content{width:480px;margin:20px 0 0 50px;line-height:24px;float:left;}
+.pro_img .now div.speed{float:left;width:110px;height:110px;text-align:center;line-height:110px;margin-left:90px;}
+.pro_img .now div.raise{margin:21px 0 0 30px;width:200px;float:right;}
+.pro_img .now div.raise p{font-size:14px;line-height:24px;margin:0;}
+
+.pro_img .intro{position:absolute;top:0px;left:0px;height:280px;}
+.pro_img .intro p{margin:72px 0 0 50px;}
+
+/*媒体聚焦*/
+.media{margin:10px auto 40px;overflow:hidden;}
+.carousel{width:480px;float:left;height:305px;}
+.dynamic{margin-top:10px;}
+.carousel p,.infor p{text-align:left;font-size:18px;color:#000;line-height:50px;border-bottom:1px solid #e7e7e7;}
+.carousel p a,.infor p a{font-size:12px;color:#828282;float:right;}
+.infor{width:480px;float:right;height:305px;}
+.infor p.title{padding:0 10px;line-height:41px;color:#828282;font-size:14px;overflow:hidden;height:41px;}
+.infor p.title span{font-size:12px;color:#828282;float:right;}
+.infor p.title:hover{color:#e8323f;background-color:#f0f0f0;}
+.infor p.title:hover span{color:#e8323f;}
+
+
+/*投资机构轮播*/
+.institution{width:1110px;margin:20px auto 0;position:relative;}
+.institution p{font-size:30px;text-align:center;line-height:60px;}
+.institution>img{margin-left:55px;}
+.invest{margin:25px auto;width:1000px;}
+.invest .swiper-wrapper{width:1000px;margin:0 auto;}
+.invest .swiper-wrapper .swiper-slide{width:180px;}
+.invest .swiper-wrapper .swiper-slide img{border:1px solid #e7e7e7;width:178px;height:98px;}
+.institution .swiper-button-prev{left:50%;margin-left:-550px;margin-top:5px;position:absolute;}
+.institution .swiper-button-next{right:50%;margin-right:-550px;margin-top:5px;position:absolute;}
+.institution .swiper-button-next, .swiper-container-rtl .swiper-button-prev{background-image:url(../Images/next.png)}
+.institution .swiper-button-prev, .swiper-container-rtl .swiper-button-next{background-image:url(../Images/prev.png)}
+.institution .swiper-slide p{font-size:14px;color:#828282;text-align:center;line-height:24px;width:180px;margin-top:5px;}
+
+
+/*合作伙伴轮播*/
+.cooperation{width:1110px;margin:20px auto 0;position:relative;}
+.cooperation p{font-size:30px;text-align:center;line-height:60px;}
+.cooperation>img{margin-left:55px;}
+.partner{margin:25px auto;width:1000px;}
+.partner .swiper-wrapper{width:1000px;margin:0 auto;}
+.partner .swiper-wrapper .swiper-slide{width:180px;}
+.partner .swiper-wrapper .swiper-slide img{border:1px solid #e7e7e7;width:178px;height:98px;}
+.cooperation .swiper-button-prev{left:50%;margin-left:-550px;margin-top:5px;position:absolute;}
+.cooperation .swiper-button-next{right:50%;margin-right:-550px;margin-top:5px;position:absolute;}
+.cooperation .swiper-button-next, .swiper-container-rtl .swiper-button-prev{background-image:url(../Images/next.png)}
+.cooperation .swiper-button-prev, .swiper-container-rtl .swiper-button-next{background-image:url(../Images/prev.png)}
+.cooperation .swiper-slide p{font-size:14px;color:#828282;text-align:center;line-height:24px;width:180px;margin-top:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>基本信息</title>
+    <link href="Assets/Css/comm.css" rel="stylesheet" />
+    <link href="Assets/Css/basic_information.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--头部-->
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Assets/Images/logo.png" /></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html" class="cur">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="product.html">产品众筹 </a></li>
+                    <li><a href="stock.html">股权众筹</a></li>
+                </ul>
+            </div>
+            <div class="apply">
+                <a href="return_setting.html" class="pro_apply">项目申请</a>
+                <a href="land.html">注册</a>|
+                <a href="land.html">登录</a>
+            </div>
+        </div>
+    </header>
+    <!--主体-->
+    <div class="center">
+        <div class="center_left">
+            <div class="person">个人中心</div>
+            <a href="javascript:;">
+                <div class="infomation changes">基本信息<img src="Assets/Images/red_right.png" /></div>
+            </a>
+            <a href="javascript:;">
+                <div class="manage">项目管理<img src="Assets/Images/black_right.png" /></div>
+            </a>
+            <a>
+                <div class="authentication">实名认证<span>未认证</span><img src="Assets/Images/black_right.png" /></div>
+            </a>
+            <a>
+                <div class="applies">申请成为投资人<img src="Assets/Images/black_right.png" /></div>
+            </a>
+        </div>
+        <!--基本信息修改-->
+        <div class="true_name">
+            <h4>基本信息</h4>
+            <!--头像-->
+            <div class="photo">
+                <div class="photo_child">
+                    <img src="Assets/Images/ceshitu.png" />
+                    <a href="javascript:;" class="photo_headphoto">修改头像</a>
+                </div>
+            </div>
+            <!--个人资料-->
+            <div class="datum">
+                <div class="singer">个人资料 <a href="javascript:;" class="write">编辑</a></div>
+                <div class="singer singer_child">昵称：<input type="text" readonly="" placeholder="nike" /></div>
+                <div class="singer singer_child">邮箱：<input type="text" readonly="" /></div>
+                <div class="singer singer_child">地址：<input type="text" readonly="" /></div>
+            </div>
+            <div class="clear"></div>
+            <!--信息-->
+            <div class="info">
+                手机：<input type="text" placeholder="187****1316" readonly="" />
+                <img src="Assets/Images/center_02.png" />
+                <div class="notice">为保障账户安全，如需修改手机号码，请联系客服。</div>
+            </div>
+            <div class="land">
+                登陆密码：<input type="text" readonly="" placeholder="登录创客股权众筹网站时需要输入的密码" />
+                <a href="javascript:;" class="update">修改</a>
+            </div>
+        </div>
+        <!--实名认证-->
+        <!-- <div class="real_name">
+            <h4>实名认证</h4>
+            <div class="prompt">
+                <p>温馨提示：</p>
+                <p>为什么要实名实证？为保证平台交易安全可靠，请进行实名认证，否则无法在本平台进行项目发起/投资。验证后不能修改！由于本平台实行实名帐号一对一绑定规则，一个帐号只能认证一次，一旦认证将无法修改。</p>
+            </div>
+     
+              <div class="write_info write_infochild">
+                <span>姓名</span><input  type="text"; />
+                <p>请输入您的真实姓名，一经提交不得修改</p>
+            </div>
+              <div class="write_info">
+                <span>身份证号</span><input  type="text"; />
+                <p>请输入18位身份证号，一经提交不得修改</p>
+            </div>
+           <div class="submit"><a href="javascript:;">提交</a></div>
+        </div>-->
+        <!--项目管理-->
+        <div class="project_management">
+            <h4>项目管理</h4>
+            <div class="plate">
+                <span class="left">魔奇英语小狐狸七十二变</span>
+                <span class="right"><a class="col_write" href="javascript:;">编辑</a><a>|</a><a class="col_dete" href="javascript:;">删除</a></span>
+            </div>
+            <div class="plate">
+                <span class="left">魔奇英语小狐狸七十二变</span>
+                <span class="right"><a class="col_write" href="javascript:;">编辑</a><a>|</a><a class="col_dete" href="javascript:;">删除</a></span>
+            </div>
+            <a class="project_apply" href="javascript:;">项目申请</a>
+        </div>
+
+    </div>
+
+    <div class="mask"></div>
+    <!--编辑资料-->
+    <div class="edit_data">
+        <div class="up_singer">修改个人资料 <span>×</span></div>
+        <div class="up_detail up_detailchild">昵称<input type="text" placeholder="nike" /></div>
+        <div class="up_detail">邮箱<input type="text" placeholder="请输入你的邮箱" /></div>
+        <div class="up_detail">
+            地址<input type="text" placeholder="选择城市" class="choose_city" />
+            <input type="text" placeholder="请输入详细地址" class="choose_address" />
+        </div>
+        <a href="javascript:;" class="sub">提交</a>
+    </div>
+
+    <!--修改密码-->
+    <div class="modify_password">
+        <div class="up_singer">修改登陆密码 <span>×</span></div>
+        <div class="up_detail up_detailchild">原密码<input type="text" placeholder="请输入原密码" /></div>
+        <div class="up_detail">新密码<input type="text" placeholder="请输入新密码" /></div>
+        <div class="up_detail date_sure">确认新密码<input type="text" placeholder="请确认新密码" />
+            <p><span>输入的密码不一致，请确认</span></p> <img src="Assets/Images/rown.png" />
+        </div>
+        <a href="javascript:;" class="sub">提交</a>
+    </div>
+
+    <!--修改头像-->
+    <div class="update_photo">
+        <div class="up_singer">修改头像 <span>×</span></div>
+        <div class="main_border">
+            <img src="Assets/Images/dynamic.jpg" />
+        </div>
+        <a href="javascript:;" class="sub">提交</a>
+    </div>
+
+
+
+    <!--底部-->
+    <footer>
+        <p>免责声明：中关村·创客股权仅提供平台对接功能，不对所有项目信息与承诺收益做任何担保</p>
+        <p>© 2010-2015 maker.com. All rights reserved.</p>
+    </footer>
+    <script src="Assets/Plugins/jquery/jquery-1.11.2.min.js"></script>
+    <script>
+        $(function() {
+            //注意事项悬浮
+            $(".info img").hover(function() {
+                $(".notice").toggle();
+            });
+
+            //编辑开始
+            //点击编辑出现弹窗 
+            $(".write").click(function() {
+                $(".mask").show();
+                $(".edit_data").show();
+                $("body").css("overflow", "hidden");
+            });
+            //点击x取消
+            $(".edit_data .up_singer span").click(function() {
+                $(".edit_data").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+
+            });
+            //点击提交取消
+            $(".edit_data a").click(function() {
+                $(".edit_data").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+            });
+            //编辑结束
+
+            //修改开始
+            //修改弹窗
+            $(".land .update").click(function() {
+                $(".mask").show();
+                $(".modify_password").show();
+                $("body").css("overflow", "hidden");
+            });
+
+            //点击x取消
+            $(".modify_password .up_singer span").click(function() {
+                $(".modify_password").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+            });
+            //修改头像
+            $(".photo_headphoto").click(function() {
+                $(".mask").show();
+                $(".update_photo").show();
+                $("body").css("overflow", "hidden");
+            });
+            //点击x取消
+            $(".update_photo .up_singer span").click(function() {
+                $(".update_photo").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+            });
+
+
+
+            //点击提交取消
+            $(".modify_password a").click(function() {
+                $(".modify_password").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+            });
+            //点击提交取消
+            $(".update_photo a").click(function() {
+                $(".update_photo").hide();
+                $(".mask").hide();
+                $("body").css("overflow", "auto");
+            });
+            //修改结束
+
+            //左边栏
+            $(".infomation").click(function() {
+                $(".true_name").show();
+                //$(".real_name").hide();
+                $(".project_management").hide();
+                $(this).parent().parent().children().find("div").removeClass("changes");
+                $(this).addClass("changes");
+                $(this).parent().parent().children().find("img").attr("src", "Assets/Images/black_right.png");
+                $(this).find("img").attr("src", "Assets/Images/red_right.png")
+
+            });
+            //$(".authentication").click(function () {
+            //    //$(".real_name").show();
+            //    $(".true_name").hide();
+            //    $(".project_management").hide();
+            //    $(this).parent().parent().children().find("div").removeClass("changes");
+            //    $(this).addClass("changes");
+            //    $(this).parent().parent().children().find("img").attr("src", "Assets/Images/black_right.png");
+            //    $(this).find("img").attr("src", "Assets/Images/red_right.png")
+
+            //});
+
+            $(".manage").click(function() {
+                $(".project_management").show();
+                $(".real_name").hide();
+                $(".true_name").hide();
+                $(this).parent().parent().children().find("div").removeClass("changes");
+                $(this).addClass("changes");
+                $(this).parent().parent().children().find("img").attr("src", "Assets/Images/black_right.png");
+                $(this).find("img").attr("src", "Assets/Images/red_right.png")
+
+            });
+
+            //项目管理删除
+            $(".col_dete").click(function() {
+                $(this).parent().parent().remove();
+            });
+        });
+    </script>
+</body>
+
+</html>

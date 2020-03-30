@@ -1,0 +1,60 @@
+/* Elastislide Style */
+.es-carousel-wrapper{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:relative;
+}
+.es-carousel{
+	overflow:hidden;
+
+}
+.es-carousel ul{
+	display:none;
+}
+.es-carousel ul li{
+	height:100%;
+	float:left;
+	display:block;
+    text-align:center;
+}
+.es-carousel ul li a{
+	display:block;
+}
+.es-carousel ul li p{
+color:#c69b72;
+font-size:18px;
+margin-top:20px;
+margin-bottom:15px;
+}
+.es-carousel ul li a img{
+	border:none;
+	max-height:100%;
+	max-width:100%;
+}
+
+.es-nav span{
+	position:absolute;
+	top:50%;
+	left:-12px;
+	background:transparent no-repeat top left url(images/nav_a.png);
+	width:20px;
+	height:42px;
+	margin-top:-65px;
+    z-index:99;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.8;
+}
+.es-nav span.es-nav-prev {
+    background-position:bottom left;
+}
+.es-nav span.es-nav-next{
+	right:-12px;
+	left:auto;
+	background-position:top left;
+    margin-top: -65px;
+}
+.es-nav span:hover{
+	opacity:1.0;
+}

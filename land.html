@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登陆</title>
+    <link href="Assets/Css/comm.css" rel="stylesheet" />
+    <link href="Assets/Css/land.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--头部-->
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Assets/Images/logo.png" /></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html" class="cur">关于我们</a></li>
+                    <li><a href="product.html">产品众筹 </a></li>
+                    <li><a href="stock.html">股权众筹</a></li>
+                </ul>
+            </div>
+            <div class="apply">
+                <a href="return_setting.html" class="pro_apply">项目申请</a>
+                <div class="login">
+                    <a href="basic_information.html">
+                        <img src="Assets/Images/user.jpg" />个人中心</a>
+                    <a href="javascript:;">退出</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--主体-->
+    <div class="main_body">
+        <div class="land">
+            <a href="javascript:;" class="land_main cur">登陆</a><a style="color:#000000;">|</a><a href="javascript:;" class="register_main">注册</a>
+        </div>
+        <!--登陆-->
+        <div class="detail">
+            <div class="name">
+                <span>手机号</span><input type="text" />
+                <a>
+                    <img src="Assets/Images/rown.png" /></a>
+                <p>请输入手机号</p>
+            </div>
+
+            <div class="name">
+                <span>密码</span><input type="text" />
+                <a>
+                    <img src="Assets/Images/rown.png" /></a>
+                <p>请输入6-16位数字或字母</p>
+            </div>
+            <div class="submit">
+                <a href='index.html'>登陆</a>
+            </div>
+            <a class="forget" href="forget_password.html">忘记密码</a>
+        </div>
+        <!--注册-->
+        <div class="register">
+            <div class="name">
+                <span>用户名</span><input type="text" />
+                <a><img src="Assets/Images/rown.png" /></a>
+                <p>4-20位字符，支持汉字、字母、数字及“-”、“_”组合</p>
+            </div>
+
+            <div class="name">
+                <span>密码</span><input type="text" />
+                <a><img src="Assets/Images/rown.png" /></a>
+                <p>格式不正确，请输入6-16位数字或字母</p>
+            </div>
+
+            <div class="name">
+                <span>确认密码</span><input type="text" />
+                <a><img src="Assets/Images/rown.png" /></a>
+                <p>请输入6-16位数字或字母，区分大小写</p>
+            </div>
+
+            <div class="name">
+                <span>手机号</span><input type="text" /> <a>获取验证码</a>
+                <p>请输入手机号</p>
+            </div>
+
+            <div class="name">
+                <span>验证码</span><input type="text" />
+                <a><img src="Assets/Images/rown.png" /></a>
+            </div>
+
+            <div class="name">
+                <p><input type="checkbox" class="squicer" />阅读并同意<a href="service.html" class="zhongchou">《众响创投平台用户服务协议》</a></p>
+            </div>
+
+            <div class="submit">
+                <a href="index.html">注册</a>
+            </div>
+        </div>
+
+    </div>
+    <!--底部-->
+    <footer>
+        <p>免责声明：中关村·创客股权仅提供平台对接功能，不对所有项目信息与承诺收益做任何担保</p>
+        <p>© 2010-2015 maker.com. All rights reserved.</p>
+    </footer>
+
+    <script src="Assets/Plugins/jquery/jquery-1.11.2.min.js"></script>
+
+    <script>
+        $(function() {
+            $(".land_main").click(function() {
+                $(".detail").show();
+                $(".register").hide();
+                $(this).parent().find("a").removeClass("cur");
+                $(this).addClass("cur");
+            });
+            $(".register_main").click(function() {
+                $(".detail").hide();
+                $(".register").show();
+                $(this).parent().find("a").removeClass("cur");
+                $(this).addClass("cur");
+            });
+        });
+    </script>
+
+</body>
+
+</html>

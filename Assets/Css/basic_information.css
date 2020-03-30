@@ -1,0 +1,115 @@
+﻿body { background-color:#f5f5f5; position:relative;}
+/*左边栏*/
+.center{width:1000px; margin:80px auto 122px; overflow:hidden;}
+.center_left{width:240px; height:350px; border:1px solid #c8c8c8; border-bottom:0; background-color:white; float:left;}
+.center_left img{float:right; margin:30px 28px 0 0 ;}
+.center_left div{height:68.8px; border-bottom:1px solid #c8c8c8;}
+.center_left .person{background-color:#e8323f; line-height:68.8px; font-size:24px;color:white;padding-left:40px; }
+
+.center_left a .authentication{font-size:18px; color:#000000; line-height:68.8px;padding-left:40px;}
+.center_left .authentication span{margin-left:10px;font-size:14px;}
+
+.center_left .manage,.center_left .applies,.center_left .infomation{font-size:18px; color:#000000; line-height:68.8px;}
+.center_left a .manage,.center_left a .applies,.center_left a .infomation {color:#000000;padding-left:40px;}
+.center_left a .changes{color:#ed6d74;}
+
+
+/*基本信息*/
+.true_name{width:718px; height:auto; background-color:white; float:right; border:1px solid #c8c8c8; overflow:hidden;   min-height:600px;}
+.true_name h4{color:#969696; font-size:18px; padding:23px 0 23px 40px; border-bottom:1px solid #c8c8c8;}
+
+/*头像*/
+.photo{width:135px; height:135px;border-radius:100px; background-color:#fff;border:1px solid #e7e7e7; margin:39px 0 0 56px; float:left;}
+.photo_child{width:125px; height:125px;border-radius:100px; background-color:#eeeeee; border:1px solid #e7e7e7;  margin: 4px 0 0 4px;}
+.photo_child img{width:125px; height:125px;border-radius:100px;}
+.photo_child a{font-size:14px; color:#e8323f; text-align:center; margin-top:10px; display:block;}
+
+/*个人资料*/
+.datum {  float: left;width:430px; margin:39px 0 0 50px;}
+.datum .singer {font-size:14px;color:#000000;  border-bottom: 1px solid #e7e7e7;   height: 47px;line-height: 47px;}
+.datum .singer a{color:#e8323f; float:right;}
+.datum input{ border:0; height:26px; line-height:25px; width:270px; padding-left:10px; background-color:white;}
+.datum .singer_child{color:#969696;}
+
+.true_name .info{ font-size:14px; color:#000000;  border-bottom: 1px solid #e7e7e7; border-top:1px solid #e7e7e7;  height: 47px;  line-height: 47px; margin:41px 47px 0 56px;}
+.true_name .info input{margin-left:85px; height: 26px;line-height: 25px; width: 240px; border:0;}
+.info {position:relative; }
+.info img{margin-top:12px; float:right;cursor:pointer; }
+.info .notice {background:url(../Images/center_01.png) no-repeat;  font-size: 14px; color: white;position: absolute; right: 25px;top: 0; width: 175px; padding: 6px 15px; line-height: 18px; display:none;}
+.land{ font-size:14px; color:#000000;  border-bottom: 1px solid #e7e7e7;height: 47px;  line-height: 47px; margin:0 47px 0 56px; }
+.land input{height:26px;line-height: 25px; width: 240px; background-color: white; margin-left:57px; border:0;}
+.land .update{ float:right; color:#e8323f;}
+
+
+/*实名认证*/
+.real_name{width:718px; height:auto; background-color:white; float:right; border:1px solid #c8c8c8; overflow:hidden; display:none; min-height:600px;}
+.real_name h4{color:#969696; font-size:18px; padding:23px 0 23px 40px; border-bottom:1px solid #c8c8c8;}
+/*温馨提示*/
+.real_name .prompt{padding:40px 46.5px 40px 46.5px; width:625px;text-align:justify; line-height:23px; border-bottom:1px solid #c8c8c8;}
+.real_name .prompt p:first-child{font-size:14px; color:#000000;}
+.real_name .prompt p:last-child{font-size:14px; color:#969696;}
+/*填写信息*/
+.real_name .write_info {text-align:center; margin-bottom:20px;}
+.real_name .write_infochild{margin-top:50px;}
+.real_name .write_info span{font-size:14px; color:#000000;  width: 56px; text-align:right; display:inline-block;}
+.real_name .write_info input{width:340px; height:48px; border:1px solid #e7e7e7; border-radius:5px; margin-left:10px; padding-left:20px;}
+.real_name .write_info p{  font-size: 14px; color: #969696; margin: 5px 0 0 210px; width: 365px;text-align: left;}
+
+/*提交*/
+.submit{float:right;  margin:20px 146px  0 0 ;}
+.real_name .submit a{width:115px; height:37px;display:block;background-color:#e8323f;text-align:center; line-height:37px; color:white; font-size:18px; border-radius:5px;}
+
+/*项目管理*/
+.project_management {width:718px; height:auto; min-height:600px; background-color:white; float:right; border:1px solid #c8c8c8; overflow:hidden;display:none;}
+.project_management h4{color:#969696; font-size:18px; padding:23px 0 23px 40px; border-bottom:1px solid #c8c8c8;}
+.project_management .plate {overflow:hidden; margin:35px 45px 0 45px; padding-bottom:20px; border-bottom:1px solid #e7e7e7;}
+.project_management .plate .left {font-size:18px; color:#000000; float:left;} 
+.project_management .plate .right {float:right; margin-top:3px;} 
+.project_management .plate .right a{margin-right:10px;}
+.project_management .plate .col_write{color:#e8323f;}
+.project_management .plate .col_dete{color:#969696;}
+.project_management .project_apply {width:115px; height:35px; background-color:#e8323f; display:inline-block; color:white; font-size:14px; line-height:35px; text-align:center; float:right; border-radius:4px; margin:45px 45px 0 0 ;}
+ 
+
+
+
+
+
+/*编辑弹窗*/
+.edit_data{width:650px; height:380px; background-color:white; z-index:999; position:absolute; top:50%; left:50%; margin-top:-273px; margin-left:-325px; border-radius:7px; display:none;}
+.edit_data .up_singer{font-size:14px; color:#969696;  margin: 20px 24px 0 24px;border-bottom:1px solid #e7e7e7;padding-bottom:20px;}
+.edit_data .up_singer span{float:right; font-size:23px; margin-top:-7px;cursor:pointer;}
+.edit_data .up_detail {text-align:center; font-size:14px; color:#000000; margin-bottom:27px;}
+.edit_data .up_detail input{width:387px; height:35px; border-radius:4px; border:1px solid #c8c8c8;margin-left: 6px; padding-left:13px;}
+.edit_data .up_detailchild{ margin-top:37px;}
+.edit_data .up_detail .choose_city{width:84px;}
+.edit_data .up_detail .choose_address{width:277px;}
+.edit_data .up_detail:last-child{border-bottom:1px solid #e7e7e7; padding-bottom:38px;}
+.edit_data a{width:115px; height:35px; line-height:35px; background-color:#e8323f; text-align:center; color:white; font-size:18px; display:inline-block; border-radius:4px;  float: right;margin-right: 45px;}
+
+
+/*修改密码弹窗*/
+.modify_password{width:650px; height:380px; background-color:white; z-index:999; position:absolute; top:50%; left:50%; margin-top:-273px; margin-left:-325px; border-radius:7px; display:none;}
+.modify_password .up_singer{font-size:14px; color:#969696;  margin: 20px 24px 0 24px;border-bottom:1px solid #e7e7e7;padding-bottom:20px;}
+.modify_password .up_singer span{float:right; font-size:23px; margin-top:-7px;cursor:pointer;}
+.modify_password .up_detail {text-align:center; font-size:14px; color:#000000; margin-bottom:22px;}
+.modify_password .up_detail input{width:300px; height:35px; border-radius:4px; border:1px solid #c8c8c8;margin-left: 15px; padding-left:13px;}
+.modify_password .up_detailchild{ margin-top:37px;}
+.modify_password .up_detail .choose_city{width:84px;}
+.modify_password .up_detail .choose_address{width:277px;}
+.modify_password .date_sure{border-bottom:1px solid #e7e7e7; padding-bottom:10px;  margin: 0 24px 0 0;  position: relative;}
+.modify_password .up_detail p { margin-top:10px; height:20px;}
+.modify_password .up_detail p span{font-size:14px;color:#e8323f; display:none;}
+.modify_password a{width:115px; height:35px; line-height:35px; background-color:#e8323f; text-align:center; color:white; font-size:18px; display:inline-block; border-radius:4px;  float: right;margin-right: 45px; margin:17px 45px 0 0;}
+.modify_password .date_sure img{position:absolute; top:9px;  right:73px; display:none;}
+
+
+/*修改头像弹窗*/
+
+.update_photo{width:650px; height:495px; background-color:white; z-index:999; position:absolute; top:50%; left:50%; margin-top:-273px; margin-left:-325px; border-radius:7px; display:none;}
+.update_photo .up_singer{font-size:14px; color:#969696;  margin: 20px 24px 0 24px;border-bottom:1px solid #e7e7e7;padding-bottom:20px;}
+.update_photo .up_singer span{float:right; font-size:23px; margin-top:-7px;cursor:pointer;}
+.update_photo .main_border {width:360px; height:230px; border:1px solid #e7e7e7; margin:55px auto; background-color:#e7e7e7;}
+.update_photo .main_border img{width:300px; height:190px; padding:20px 30px;}
+.update_photo a{width:115px; height:35px; line-height:35px; background-color:#e8323f; text-align:center; color:white; font-size:18px; display:block; border-radius:4px; margin-right: 45px; margin:17px 45px 0 0; margin:auto;}
+

@@ -1,0 +1,6 @@
+﻿body {background-color:#f5f5f5;}
+.main_all{width:998px; margin:80px auto 370px; background-color:white;min-height:350px; border:1px solid #e7e7e7; text-align:center;}
+.main_all h1{font-size:30px; color:#000000; margin-top:80px;}
+.main_all p{color:#969696; font-size:16px;margin: 25px 0 50px;}
+.main_all a{width:300px; height:48px; line-height:48px; display:inline-block; background-color:#e8323f; font-size:24px; text-align:center; color:white; border-radius:4px; margin:0 20px;}
+.main_all a:last-child{background-color:#dcdcdc;}

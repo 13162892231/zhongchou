@@ -1,0 +1,70 @@
+﻿/*焦点图*/
+.swiper-container{width:100%;}
+.swiper-wrapper .swiper-slide{width:100%;}
+.swiper-wrapper .swiper-slide img{width:100%;}
+.swiper-pagination-bullet{border:2px solid #fff;opacity:1;background:none;width:10px;height:10px;}
+.swiper-pagination-bullet-active{background:#fff;}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{margin:0px 10px 10px 0;}
+/*模块*/
+.modular{width:100%;border-bottom:1px solid #e7e7e7;}
+.modular_nav{width:1000px;margin:0px auto;}
+.modular_nav li{float:left;line-height:80px;}
+.modular_nav li a{display:block;width:155px;height:80px;font-size:14px;text-align:center;line-height:80px;}
+.modular_nav li a:hover{color:#e8323f;}
+.modular_nav li a.cur{color:#e8323f;}
+
+/*分类*/
+.type_nav{width:1000px;margin:0px auto;}
+.type_nav li{float:left;line-height:80px;}
+.type_nav li a{display:block;width:155px;height:80px;font-size:14px;text-align:center;line-height:80px;}
+.type_nav li a:hover{color:#e8323f;}
+.type_nav li a.cur{color:#e8323f;}
+
+
+
+/*项目*/
+.all{width:1000px;margin:60px auto 0;}
+.pro_img{border:1px solid #e7e7e7;margin-bottom:40px;}
+.pro_img a{display:block;overflow:hidden;height:280px;margin:10px;position:relative;}
+.pro_img span.tab{position:absolute;top:0px;left:0px;padding:7px 25px;color:#fff;background-color:#e8323f;z-index:4;}
+.pro_img .now{position:absolute;top:235px;left:0px;height:50px;width:980px;background-color:rgba(0,0,0,0.5);}
+.pro_img .now p{font-size:24px;margin:0px 0 0 50px;color:#fff;line-height:40px;text-align:left;}
+.pro_img .now p span.edu{margin-left:72px;padding:1px 16px;color:#96cd48;border:1px solid #96cd48;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p span.heal{margin-left:72px;padding:1px 16px;color:#28bbb4;border:1px solid #28bbb4;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p span.sce{margin-left:72px;padding:1px 16px;color:#00a0e9;border:1px solid #00a0e9;font-size:14px;border-radius:4px;margin-top:-4px;}
+.pro_img .now p.name{font-size:14px;margin:5px 0 0 50px;line-height:18px;}
+.pro_img .now div{color:#fff;font-size:14px;}
+.pro_img .now div.content{width:480px;margin:20px 0 0 50px;line-height:24px;float:left;}
+.pro_img .now div.speed{float:left;width:110px;height:110px;text-align:center;line-height:110px;margin-left:90px;}
+.pro_img .now div.raise{margin:21px 0 0 30px;width:200px;float:right;}
+.pro_img .now div.raise p{font-size:14px;line-height:24px;margin:0;}
+
+.pro_img .intro{position:absolute;top:0px;left:0px;height:280px;}
+.pro_img .intro p{margin:72px 0 0 50px;}
+
+
+
+/*悬浮栏*/
+.suspension{position:fixed;top:545px;right:50%;margin-right:-780px;z-index:10;}
+.suspension div{width:60px;height:60px;margin-bottom:1px;position:relative;}
+.suspension div a{display:block;}
+.suspension div.tel p{width:250px;height:58px;border-radius:4px; line-height:30px;border:1px solid #e7e7e7;color:#000;font-size:14px;position: absolute;bottom: 0px;left:-192px; background-color:#fff;text-align:center;display:none;}
+.suspension div.tel p span{display:block;line-height:22px;color:#000;}
+.suspension div.tel:hover p{display:block;}
+.suspension div.code:hover .weixin{display:block;}
+.suspension div .weixin{position:absolute;bottom:0;right:85px;border:1px solid #e7e7e7;border-radius:4px;background-color:#fff;display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

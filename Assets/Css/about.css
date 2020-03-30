@@ -1,0 +1,44 @@
+﻿.main{width:100%;background:url('../Images/about_bg.jpg') no-repeat; min-height:1165px;}
+.main_infor{width:1000px;margin:0px auto;}
+.main_infor p{text-align:center;color:#fff;font-size:18px;}
+.main_infor p.infor{font-size:48px; padding:112px 0 45px 0;}
+.main_infor .content_child,.content .content_child{margin-bottom:6px;}
+.main_infor .img{padding:37px 0 107px 0;text-align: center;}
+.main_infor .img img{margin: 0 10px;}
+.content{width:1000px; margin:0px auto;}
+
+.content p{font-size:18px; color:#000000; text-align:center;}
+.content p:first-child{font-size:48px; margin:85px 0 48px 0;} 
+
+.electting{overflow:hidden; width:1000px; margin:25px auto 0; }
+.electting div{float:left; margin-left: 142px; text-align: center;}
+.electting div p{margin-top:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
